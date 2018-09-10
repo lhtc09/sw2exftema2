@@ -12,7 +12,7 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia cancer
       Dado que el cliente tiene 4 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'Saludcita no opera en la ciudad ingresada'
+      Entonces obtiene el mensaje 'Saludcita no opera en la ciudad ingresada.'
 
    Escenario: Hombre soltero de la ciudad de Quito de 17 años con 0 dependientes y pre-existencias osteoporosis
       Dado que la ciudad del cliente es Quito

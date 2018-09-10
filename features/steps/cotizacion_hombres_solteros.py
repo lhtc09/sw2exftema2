@@ -33,6 +33,6 @@ def step_impl(context):
 	resultado = cotizar_seguro(context.ciudad,context.edad,context.genero,context.estado,context.preexistencias,context.dependientes)
 	context.resultado = resultado
 
-@then("obtiene el mensaje '{mensaje}'")
+@then("obtiene el mensaje {mensaje}")
 def step_impl(context, mensaje):
 	assert context.resultado == mensaje
