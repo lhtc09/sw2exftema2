@@ -20,11 +20,11 @@ def step_impl(context,genero):
 def step_impl(context,estado):
 	context.estado = estado
 
-@given("que el cliente tiene pre-existencias {preexistencias}")
+@given("que el cliente tiene pre-existencia {preexistencias}")
 def step_impl(context,preexistencias):
 	context.preexistencias = preexistencias
 
-@given("que el cliente tiene  {dependientes} dependientes")
+@given("que el cliente tiene {dependientes} dependientes")
 def step_impl(context,dependientes):
 	context.dependientes = int(dependientes)
 
