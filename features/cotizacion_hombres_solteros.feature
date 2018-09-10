@@ -39,10 +39,10 @@ Característica: Cotizar hombres solteros.
       Dado que la edad del cliente es 29
       Dado que el genero del cliente es hombre
       Dado que el estado civil del cliente es soltero
-      Dado que el cliente tiene pre-existencia
+      Dado que el cliente tiene pre-existencia infarto
       Dado que el cliente tiene 5 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'El número de dpendientes supera el permitido para su cotización en línea. Un ejecutivo se comunicará con usted.'
+      Entonces obtiene el mensaje 'Solo se puede realizar la cotización para hasta 4 dependientes en línea. \Por favor acérquese a la agencia y presente una solicitud.'
 
    Escenario: Hombre soltero de la ciudad de Cuenca de 33 años con 10 dependientes y pre-existencia cancer
       Dado que la ciudad del cliente es Cuenca
@@ -52,14 +52,14 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia cancer
       Dado que el cliente tiene 10 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'El número de dpendientes no está permitido. Debe ingresar un número entre 0 y 9.'
+      Entonces obtiene el mensaje 'No se puede realizar una cotización para el valor ingresado de dependientes.'
 
    Escenario: Hombre soltero de la ciudad de Guayaquil de 24 años con 2 dependientes sin pre-existencia.
       Dado que la ciudad del cliente es Guayaquil
       Dado que la edad del cliente es 24
       Dado que el genero del cliente es hombre
       Dado que el estado civil del cliente es soltero
-      Dado que el cliente tiene pre-existencia
+      Dado que el cliente tiene pre-existencia cancer
       Dado que el cliente tiene 2 dependientes 
       Cuando solicite la cotizacion
       Entonces obtiene el mensaje 'El valor calculado de su cotización es de 130'
