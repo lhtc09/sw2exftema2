@@ -39,7 +39,7 @@ Característica: Cotizar hombres solteros.
       Dado que la edad del cliente es 29
       Dado que el genero del cliente es hombre
       Dado que el estado civil del cliente es soltero
-      Dado que el cliente no tiene pre-existencia
+      Dado que el cliente tiene pre-existencia
       Dado que el cliente tiene 5 dependientes 
       Cuando solicite la cotizacion 
       Entonces obtiene el mensaje 'El número de dpendientes supera el permitido para su cotización en línea. Un ejecutivo se comunicará con usted.'
@@ -59,9 +59,9 @@ Característica: Cotizar hombres solteros.
       Dado que la edad del cliente es 24
       Dado que el genero del cliente es hombre
       Dado que el estado civil del cliente es soltero
-      Dado que el cliente no tiene pre-existencia
+      Dado que el cliente tiene pre-existencia
       Dado que el cliente tiene 2 dependientes 
-      Cuando solicite la cotizacion 
+      Cuando solicite la cotizacion
       Entonces obtiene el mensaje 'El valor calculado de su cotización es de 130'
 
    Escenario: Hombre soltero de la ciudad de Machala de 50 años con 2 dependientes con infarto de pre-existencia 
