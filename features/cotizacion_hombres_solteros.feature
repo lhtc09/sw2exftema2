@@ -32,7 +32,7 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia infarto
       Dado que el cliente tiene 3 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'La edad ingresada no es válida. La edad permitida es entre 18 y 75 años'
+      Entonces obtiene el mensaje 'La edad ingresada no es válida. Debe de encontrarse entre 18 y 75 años.'
 
    Escenario: Hombre soltero de la ciudad de Machala de 29 años con 5 dependientes sin pre-existencia 
       Dado que la ciudad del cliente es Machala
