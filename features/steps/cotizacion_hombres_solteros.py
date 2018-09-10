@@ -30,10 +30,9 @@ def step_impl(context,dependientes):
 
 @when("solicite la cotizacion")
 def step_impl(context):
-	resultado, mensaje = cotizar_seguro(context.ciudad,context.edad,context.genero,context.estado,context.preexistencias,context.dependientes)
+	resultado = cotizar_seguro(context.ciudad,context.edad,context.genero,context.estado,context.preexistencias,context.dependientes)
 	context.resultado = resultado
-	context.mensaje = mensaje
 
 @then("obtiene el mensaje '{mensaje}'")
 def step_impl(context, mensaje):
-	assert context.mensaje == mensaje
+	assert context.resultado == mensaje
