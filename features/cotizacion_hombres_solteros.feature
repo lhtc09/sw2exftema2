@@ -62,7 +62,7 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia cancer
       Dado que el cliente tiene 2 dependientes 
       Cuando solicite la cotizacion
-      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 130'
+      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 130.00'
 
    Escenario: Hombre soltero de la ciudad de Machala de 50 años con 2 dependientes con infarto de pre-existencia 
       Dado que la ciudad del cliente es Machala
@@ -72,7 +72,7 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia infarto
       Dado que el cliente tiene 2 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 140'
+      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 140.00'
 
    Escenario: Hombre soltero de la ciudad de Cuenca de 50 años con 2 dependientes con osteoporosis de pre-existencia 
       Dado que la ciudad del cliente es Cuenca
@@ -82,7 +82,7 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia osteoporosis
       Dado que el cliente tiene 2 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 90'
+      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 90.00'
 
    Escenario: Hombre soltero de la ciudad de Guayaquil de 71 años con 2 dependientes con diabetes de pre-existencia 
       Dado que la ciudad del cliente es Guayaquil
@@ -92,7 +92,7 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia diabetes
       Dado que el cliente tiene 2 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 150'
+      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 150.00'
 
    Escenario: Hombre soltero de la ciudad de Quito de 73 años con 2 dependientes con osteoporosis de pre-existencia 
       Dado que la ciudad del cliente es Quito
@@ -102,6 +102,6 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia osteoporosis
       Dado que el cliente tiene 2 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 90'
+      Entonces obtiene el mensaje 'El valor calculado de su cotización es de 90.00'
 
    
