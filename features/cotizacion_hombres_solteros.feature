@@ -22,7 +22,7 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia osteoporosis
       Dado que el cliente tiene 0 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'La edad ingresada no es permitida.'
+      Entonces obtiene el mensaje 'La edad ingresada no es válida. Debe de encontrarse entre 18 y 75 años.'
 
    Escenario: Hombre soltero de la ciudad de Cuenca de 90 años con 3 dependientes e infarto de pre-existencia 
       Dado que la ciudad del cliente es Cuenca
