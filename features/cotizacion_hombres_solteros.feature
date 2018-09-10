@@ -42,8 +42,7 @@ Característica: Cotizar hombres solteros.
       Dado que el cliente tiene pre-existencia infarto
       Dado que el cliente tiene 5 dependientes 
       Cuando solicite la cotizacion 
-      Entonces obtiene el mensaje 'Solo se puede realizar la cotización para hasta 4 dependientes en línea. \
-         Por favor acérquese a la agencia y presente una solicitud.'
+      Entonces obtiene el mensaje 'Solo se puede realizar la cotización para hasta 4 dependientes en línea. Por favor acérquese a la agencia y presente una solicitud.'
 
    Escenario: Hombre soltero de la ciudad de Cuenca de 33 años con 10 dependientes y pre-existencia cancer
       Dado que la ciudad del cliente es Cuenca
